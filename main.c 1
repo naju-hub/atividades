@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main(){
+   int numero, dobro;
+    printf("%d", &numero);
+    dobro = numero * 2;
+    printf("dobro: &d", dobro);
+    return 0;
+
+    
+}
