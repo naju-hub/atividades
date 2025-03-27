@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main() {
+    float valor_conta, porcentagem_gorjeta, gorjeta, total_a_pagar;
+
+
+   printf("digite o valor da conta  no restaurante R$ ");
+   scanf("%f" , &valor_conta);
+   
+   printf("digite a porcentagem de gorjeta: ");
+   scanf("%f" , &porcentagem_gorjeta) ;
+   
+   gorjeta = (porcentagem_gorjeta / 100) * valor_conta;
+   
+   total_a_pagar = valor_conta + gorjeta;
+   
+   printf("\nvalor da conta: R$ %.2f\n", valor_conta);
+   printf("porcentagem da gorjeta: %.2f%%\n",
+porcentagem_gorjeta) ;
+printf("gorjeta: R$ %.2f\n", gorjeta);
+printf("total a ser pago: R$ %.2f\n", total_a_pagar);
+
+    return 0;
+}
